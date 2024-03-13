@@ -1,0 +1,6 @@
+/public/app.js
+/public/app.css
+**/.DS_Store
+.git
+docker-compose.yml
+node_modules

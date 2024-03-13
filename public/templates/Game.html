@@ -1,0 +1,40 @@
+<div id="game">
+  <div class="mainZone grid resizable" id="cardZone">
+    <div class="grid card-zone-control-panel">
+      <div id="getCard"></div>
+      <div id="uno">
+
+      </div>
+    </div>
+    <div id="wheel">
+      <canvas id="wheelAnimation" width="265px" height="265px"></canvas>
+      <div class="card-zone">
+      </div>
+      <div class="grid grid-center card-animation-zone">
+      </div>
+      <div id="choiceColorZone">
+        <div class="choice-color y"></div>
+        <div class="choice-color b"></div>
+        <div class="choice-color g"></div>
+        <div class="choice-color r"></div>
+      </div>
+    </div>
+  </div>
+  <div class="mainZone resizable" id="playerZone">
+    <div class="grid profile">
+      <img class="avatar" src="{{picture}}" onload="this.onload=null;this.onerror=null;" onerror="this.src=`{{alt}}`;">
+      <span class="nickname">{{nickname}}</span>
+    </div>
+    <div class="card-zone">
+    </div>
+    <div class="grid grid-center card-animation-zone">
+    </div>
+  </div>
+  <div class="grid mainZone resizable" id="endGameZone">
+    <div class="header text-info"></div>
+    <div class="winner text-info">Поздравляем! Вы победили!</div>
+    <div class="grid control-panel">
+      <button class="regular-button" id="backToMainMenuButton">Вернуться в главное меню</button>
+    </div>
+  </div>
+</div>

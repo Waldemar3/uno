@@ -1,0 +1,17 @@
+<div class="grid profile">
+  <img class="avatar" src="{{picture}}" onload="this.onload=null;this.onerror=null;" onerror="this.src=`{{alt}}`;">
+  <span class="nickname">{{nickname}}</span>
+  <a href="/oauth/logout" class="grid grid-center regular-button red"><i class="logout"></i></a>
+</div>
+
+<i class="lineFrame"></i>
+
+<div class="grid grid-center" id="inviteFriend">
+  <input type="text" id="inviteFriendInput" placeholder="Введите никнейм друга...">
+  <button class="regular-button green" id="inviteFriendButton">Пригласить</button>
+</div>
+
+<ul class="grid" id="room">
+</ul>
+
+<button class="regular-button red" id="leaveButton">Покинуть комнату</button>

@@ -1,0 +1,65 @@
+header{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  height: 65px;
+  background: #1e2124;
+  z-index: 99;
+}
+.header-section:first-child{
+  width: 290px;
+  height: 100%;
+  padding: 10px;
+}
+
+#preloader{
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #1e2124;
+  z-index: 9999;
+}
+#preloader i{
+  position: fixed;
+  width: 250px;
+  height: 85px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#noticeList{
+  position: absolute;
+  right: 5px;
+  width: 290px;
+  top: 65px;
+  z-index: 9999;
+}
+#noticeContent{
+  position: relative;
+  text-align: center;
+}
+#noticeContent::before{
+  content: "";
+  position: absolute;
+  left:0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #7289da;
+}
+#noticeControlPanel{
+  width: 100%;
+  margin-top: 10px;
+}
+.notice{
+  position: absolute;
+  margin-top: 5px;
+  padding: 6px;
+  overflow: hidden;
+  background: rgba(0,0,0,.9);
+  border-radius: 5px;
+  opacity: 0;
+}

@@ -1,0 +1,13 @@
+i.loader{
+  animation: rotate-right 1s linear infinite;
+}
+@keyframes rotate-right {
+  from
+  {
+    transform: rotate(0deg);
+  }
+  to
+  {
+    transform: rotate(360deg);
+  }
+}

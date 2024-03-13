@@ -1,0 +1,65 @@
+i{
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center, 50%, 50%;
+  width: 100%;
+  height: 100%;
+}
+i.logo{
+  background-image: url('../svg/logo.svg');
+}
+i.preloader{
+  background-image: url('../svg/preloader.svg');
+}
+i.loader{
+  background-image: url('../svg/loader.svg');
+  width: 50px;
+  height: 50px;
+}
+i.logout{
+  background-image: url('../svg/logout.svg');
+  width: 14px;
+  height: 14px;
+}
+i.lineFrame{
+  background-image: url('../svg/lineFrame.svg');
+  height: 27px;
+}
+i.crown{
+  background-image: url('../svg/crown.svg');
+  width: 18px;
+  height: 16px;
+}
+
+i.vk{
+  background-image: url('../svg/vk.svg');
+  width: 38px;
+  height: 35px;
+}
+i.google{
+  background-image: url('../svg/google.svg');
+  width: 32px;
+  height: 33px;
+}
+i.discord{
+  background-image: url('../svg/discord.svg');
+  width: 41px;
+  height: 35px;
+}
+i.facebook{
+  background-image: url('../svg/facebook.svg');
+  width: 32px;
+  height: 35px;
+}
+
+i.mode-0{
+  background-image: url('../svg/defaultMode.svg');
+  width: 28px;
+  height: 34px;
+}
+i.mode-1{
+  background-image: url('../svg/computerMode.svg');
+  width: 41px;
+  height: 33px;
+}
